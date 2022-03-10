@@ -1,0 +1,29 @@
+{
+  "root": true,
+  "settings": {
+    "import/resolver": {
+      "typescript": {"project": "./"}
+    }
+  },
+  "env": {
+    "node": true,
+    "es2020": true
+  },
+  "parser": "@typescript-eslint/parser",
+  "extends": [
+    "airbnb-base",
+    "eslint:recommended", 
+    "prettier"
+  ],
+  "rules": {
+    "no-console": "off",
+    "no-undef": "off",
+    "import/extensions": "off",
+    "no-underscore-dangle": "off",
+    "no-unused-vars": "off",
+    "import/prefer-default-export": "off",
+    "max-classes-per-file": "off",
+    "no-useless-constructor": "off",
+    "no-empty-function": "off"
+  }
+}
